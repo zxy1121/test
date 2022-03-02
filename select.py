@@ -41,6 +41,6 @@ plt.bar(range(20), importances[indices_20])
 plt.xticks(range(20), names_20, rotation=90)
 plt.show()
 
-for i in range(20):
+for i in range(16):
     print(names_20[i])
 
